@@ -29,7 +29,7 @@ for (const [index, element] of arr.entries()) {
 // Object.keys() when we need the property keys only
 // Object.values() when we need the property values only
 
-// spread operator ..., se usa para propagar los elementos de in iterable dentro de un aaray
+// spread operator ..., se usa para propagar los elementos de in iterable dentro de un array
 let person = { name: 'Oscar', age: 28};
 let country = 'MX';
 

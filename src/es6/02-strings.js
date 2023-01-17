@@ -1,4 +1,4 @@
-// Temlate literals nos permiten concatenar strings de una forma amigable y jugar con variables y elementos
+// Template literals nos permiten concatenar strings de una forma amigable y jugar con variables y elementos
 
 // Creamos dos variables asignadas a strings
 let hello = 'Hello';
