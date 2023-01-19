@@ -7,9 +7,9 @@ function* getId() {
 }
 
 const id = getId();
-console.log(id.next().value + ' ' + id.next().done);
-console.log(id.next().value + ' ' + id.next().done);
-console.log(id.next().value + ' ' + id.next().done);
+console.log(id.next().value);
+console.log(id.next().value);
+console.log(id.next().value);
 
 function* getId() {
   let Id = 1;
@@ -18,17 +18,23 @@ function* getId() {
   }
 }
 
-// const id1 = getId();
-// console.log(id1.next().value + ' ' + id1.next().done);
-// console.log(id1.next().value + ' ' + id1.next().done);
-// console.log(id1.next().value + ' ' + id1.next().done);
+let arr = [];
+const id1 = getId();
+arr = id1.next();
+console.log(arr);
+arr = id1.next();
+console.log(arr);
+arr = id1.next();
+console.log(arr);
 
 function* getId() {
   for (let id = 1; true; id++) {
     yield id;
   }
 }
-const id1 = getId();
-console.log(id1.next().value + ' ' + id1.next().done);
-console.log(id1.next().value + ' ' + id1.next().done);
-console.log(id1.next().value + ' ' + id1.next().done);
+const id2 = getId();
+console.log(id2.next().value);
+console.log(id2.next().value);
+console.log(id2.next().value);
+console.log(id2.next().value);
+console.log(id2.next().value);
